@@ -20,6 +20,3 @@ var Pairs = /** @class */ (function () {
     Pairs.pairMap = {};
     return Pairs;
 }());
-// console.log(Pairs.getPairMap([ 'code', 'bug' ])); // {"b": "g", "c": "e"}
-// console.log(Pairs.getPairMap([ 'man', 'moon', 'main' ])); // {"m": "n"}
-console.log(Pairs.getPairMap(['man', 'moon', 'good', 'night'])); // {"g": "d", "m": "n", "n": "t"}
